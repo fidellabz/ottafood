@@ -1,0 +1,295 @@
+*, body{
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  border: 2px solid #f5c2b4;
+  color: #000;
+}
+
+.btn:hover{
+  background-color: #f09722;
+  color: white;
+}
+
+.ottafood{
+  color: #fd0303;
+}
+/*******Navigation**********/
+
+nav .dropdown-menu a{
+  background-color: #f09722;
+  color: white;
+}
+
+.nav-item a:hover{
+  color: #f09722;
+}
+/*************Hero********************/
+.hero {
+  background: url("../img/about.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+  opacity: 0.8;
+}
+
+.hero:before {
+  content: "";
+  background: rgba(17, 2, 2, 0.548);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+section .container h1{
+  font-size: 55px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+section .container h1 p{
+  font-size: 55px;
+  color: #fff;
+  font-weight:200;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+section .container a{
+  background-color: #fff !important;
+}
+
+section a:hover{
+  background-color: #f09722 !important;
+  }
+
+.card-body{
+    height: 300px;
+  }
+
+.card-title{
+  font-size: 16px;
+
+}
+
+.card-body p{
+    font-size: 12px;
+    height:40%;
+  }
+
+.custom-img {
+  height: 80px;
+}
+
+/**************Specials*************************/
+.specials .nav-item a{
+  color: #000;
+}
+
+.specials .nav-item a.active{
+  background-color: #f09722;
+  border: 2px solid #f09722;
+  color: black;
+}
+
+.specials .nav-item a:hover{
+  background-color: #f09722;
+  color: #000;
+}
+
+.specials .nav-link a:hover{
+  background-color: #f09722;
+  color: #000;
+}
+
+/*********** Section *************/
+.section-title{
+  text-align: center;
+}
+
+/*********** Testimonials *************/
+
+.testimonials {
+  background-color: #f5e7e7;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  min-height: 400px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid #e4aca4;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #000;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #000;
+  margin: 0 0 0 45px;
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 14px 0 14px;
+  padding: 20px 20px 60px 20px;
+  background: #f1d8d1;
+  position: relative;
+  min-height:200px;
+  z-index: 1;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda45e;
+}
+
+/************** about ******************/
+.about-txt{
+  color: #160808;
+}
+
+.about {
+  background: url("../img/about-bg.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 40px 0;
+}
+
+.about:before {
+  content: "";
+  background:  #f3ae9b;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.about .about-img {
+  position: relative;
+  transition: 0.5s;
+}
+
+.about .about-img img {
+  max-width: 100%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.about .about-img::before {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  content: "";
+  border-left: 5px solid #cda45e;
+  border-top: 5px solid #cda45e;
+  transition: 0.5s;
+}
+
+.about .about-img::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  content: "";
+  border-right: 5px solid #cda45e;
+  border-bottom: 5px solid #cda45e;
+  transition: 0.5s;
+}
+
+.about .about-img:hover {
+  transform: scale(1.03);
+}
+
+.about .about-img:hover::before {
+  left: 10px;
+  top: 10px;
+}
+
+.about .about-img:hover::after {
+  right: 10px;
+  bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+  .about {
+    background-attachment: fixed;
+  }
+}
+
+
+/**************footer**************/
+footer{
+  background-color: #f3ae9b;
+  color: #000;
+}
+
+footer p a{
+  color: #000
+}
+
+/* social media links */
+footer section .social-links a {
+  color: #fff !important; 
+  border: none;
+}
+
+footer .fb{
+  background-color: #3b5998;
+}
+
+footer .tw{
+  background-color: #55acee;
+}
+
+footer .in{
+  background-color: #ac2bac;
+}
+
+footer .yt{
+  background-color: #fd0303;
+}
+
+footer .go{
+  background-color: #dd4b39;
+}
+
+footer .ln{
+  background-color: #0082ca;
+}
