@@ -16,7 +16,7 @@ At OttaFood, we take pride in our commitment to providing exceptional food and s
 To run OttaFood locally and experience the deliciousness for yourself, follow these steps:
 
 1. **Clone the Repository:**
-   git clone https://github.com/your-username/ottafood.git
+   git clone https://github.com/fidellabz/ottafood.git
 2. **Navigate to the Project Directory:**
    cd ottafood
 3. **Open the Website:**
@@ -37,6 +37,6 @@ We appreciate your support in making OttaFood even better!
 
 Thank you for visiting OttaFood and exploring our passion for food and community. We hope you enjoy the experience!
 
-For more information and to place an order, visit our website [here](https://www.).
+For more information and to place an order, visit our website [here]([https://www](https://fidellabz.github.io/ottafood/)https://fidellabz.github.io/ottafood/).
 
 
