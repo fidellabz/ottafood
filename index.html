@@ -28,8 +28,8 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 shadow-sm fixed-top">
-    <div class="container-lg py-1">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 shadow-sm ">
+    <div class="container-lg">
       <h1><a class="navbar-brand fw-bold" href="#"><span class="ottafood">Otta</span>Food</a></h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +37,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#specials specials.html">Specials</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#specials">Specials</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Menu</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Local Dish</a></li>
+              <li><a class="dropdown-item" href="#specials">Local Dish</a></li>
               <li><a class="dropdown-item" href="#">Continental Dish</a></li>
               <li><a class="dropdown-item" href="#">Healthy Salads</a></li>
               <li><a class="dropdown-item" href="#">Snacks & Small Chops</a></li>
@@ -61,8 +61,8 @@
   <!-- Hero Section -->
   <section class="hero d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up">
-      <div class="row justify-content-center pt-2 mt-3">
-        <div class="col-xl-7 col-lg-9 text-center pt-5 mt-5">
+      <div class="row justify-content-center pt-2 mt-2">
+        <div class="col-xl-7 col-lg-9 text-center pt-2 mt-2">
           <h1 class="fw-bold">Every bite is a tantalizing journey at <span class="ottafood">Otta</span>Food</h1>
           <p class="p-text-col text-white">your one-stop destination for mouthwatering dishes</p>
         </div>
@@ -268,8 +268,8 @@
 
 
   <!-- About -->
-  <section id="about" class="about">
-    <div class="section-title text-center" data-aos="zoom-in" data-aos-delay="100">
+  <section id="about" class="about py-4" style="background:#f3ae9b;">
+    <div class="section-title text-center" data-aos="fade-up">
       <h2 class="about-txt">About Us</h2>
       <p class="about-txt">Get a glimpse about OttaFood</p>
     </div>
@@ -277,7 +277,7 @@
 
       <div class="row">
         <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
-          <div class="about-img">
+          <div class="about-img" data-aos="fade-down">
             <img src="assets/img/about.jpg" alt="">
           </div>
         </div>
@@ -289,7 +289,7 @@
             sacrificing quality, we're here to disrupt that norm. We believe that you should never have to settle for less when it comes to your
             food.
           </p>
-          <a href="#" class="btn btn-md rounded-pill px-5">Learn more</a>
+          <a href="about.html" class="btn btn-md rounded-pill px-5">Learn more</a>
         </div>
       </div>
     </div>
@@ -303,73 +303,58 @@
         <p>Listen to what our satisfied customers have to say</p>
       </div>
 
-      <div class="testimonials-slider swiper" data-aos="fade-up">
+      <div class="testimonials-slider swiper py-5" data-aos="fade-up">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <p class="px-4 py-4 bg-danger text-white rounded-top" style="min-height:200px">
                 The variety of dishes and the quality of ingredients are exceptional. I can finally enjoy restaurant-quality meals at home!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Ola Johnson</h3>
-              <h4>Food Enthusiast</h4>
+              <h4 class="fw-bold fs-5 mx-3 mb-0 fst-italic">Ola Johnson</h4>
+              <span class="text-secondary px-3 fs-6 fst-italic">Food Enthusiast</span>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <p class="px-4 py-4 bg-dark text-white rounded-top" style="min-height:200px">
                 The variety of dishes and the quality of ingredients are exceptional. I can finally enjoy
                 restaurant-quality meals at home!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Femi Daniels</h3>
-              <h4>Vegetarian Advocate</h4>
+              <h4 class="fw-bold fs-5 mx-3 mb-0 fst-italic">Femi Daniels</h4>
+              <span class="text-secondary px-3 fs-6 fst-italic">Vegetarian Advocate</span>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+               <p class="px-4 py-4 bg-danger text-white rounded-top" style="min-height:200px">
                 The variety of dishes and the quality of ingredients are exceptional. I can finally enjoy
                 restaurant-quality meals at home!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Business Executive</h4>
+              <h4 class="fw-bold fs-5 mx-3 mb-0 fst-italic">Jena Karlis</h4>
+              <span class="text-secondary px-3 fs-6 fst-italic">Business Executive</span>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            <div class="testimonial-item ">
+              <p class="px-4 py-4 bg-dark text-white rounded-top" style="min-height:200px">
                 The variety of dishes and the quality of ingredients are exceptional. I can finally enjoy
                 restaurant-quality meals at home!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Eric Tenten</h3>
-              <h4>Freelancer</h4>
+              <h4 class="fw-bold fs-5 mx-3 mb-0 fst-italic">Eric Tenten</h4>
+              <span class="text-secondary px-3 fs-6 fst-italic">Freelancer</span>
             </div>
           </div><!-- End testimonial item -->
 
           <div class="swiper-slide">
             <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <p class="px-4 py-4 bg-danger text-white rounded-top" style="min-height:200px">
                 The convenience and affordability are unmatched, and the food is outstanding.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>Mikel Pacson</h3>
-              <h4>Store Owner</h4>
+              <h4 class="fw-bold fs-5 mx-3 mb-0 fst-italic">Mikel Pacson</h4>
+              <span class="text-secondary px-3 fs-6 fst-italic">Store Owner</span>
             </div>
           </div><!-- End testimonial item -->
 
