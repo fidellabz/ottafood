@@ -25,6 +25,8 @@ nav .dropdown-menu a{
 .nav-item a:hover{
   color: #f09722;
 }
+
+a {text-decoration: none;}
 /*************Hero********************/
 .hero {
   background: url("../img/about.jpg") center center;
@@ -104,14 +106,11 @@ section .container h1{
   overflow: hidden;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.testimonials .swiper-pagination 
+.swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
 
-/************** about ******************/
-.about .about-img img {
-  max-width: 80%;
-}
 /**************footer**************/
 footer, footer p, footer a{
   background-color: #f3ae9b;
