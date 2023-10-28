@@ -37,6 +37,6 @@ We appreciate your support in making OttaFood even better!
 
 Thank you for visiting OttaFood and exploring our passion for food and community. We hope you enjoy the experience!
 
-For more information and to place an order, visit our website [here]([https://www](https://fidellabz.github.io/ottafood/)https://fidellabz.github.io/ottafood/).
+For more information and to place an order, visit our website [here]([https://www](https://fidellabz.github.io/ottafood/)https://fidellabz.github.io/ottafood/]).
 
 
